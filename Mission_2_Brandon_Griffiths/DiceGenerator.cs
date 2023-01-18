@@ -45,13 +45,11 @@ namespace Mission_2_Brandon_Griffiths
             {
                 int number = 0;
 
-                int num = 0;
 
                 number = (i + 2);
 
-                num = rolls[i];
 
-                rolls[i] = (int)Math.Round(((double)num / diceRolls) * 100);
+                rolls[i] = (int)Math.Round(((double)rolls[i] / diceRolls) * 100);
 
                 // adding the number of stars to the string
                 for (int n = 0; n < rolls[i]; n++)
