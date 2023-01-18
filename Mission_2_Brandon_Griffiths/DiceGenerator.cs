@@ -59,7 +59,7 @@ namespace Mission_2_Brandon_Griffiths
                     stars[i] += '*';
                 }
 
-
+                //final console statment
                 Console.WriteLine(number + ": " + stars[i]);
             }
 
